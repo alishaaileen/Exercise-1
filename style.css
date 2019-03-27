@@ -1,0 +1,19 @@
+
+.wrapper{
+    margin: 0 auto;
+    width: 60%;
+    position: relative;
+}
+.lmao{
+    top: -200px;
+    position: absolute;
+    width: 100%;
+}
+.kotak{
+    margin: 0 0 70px 0;
+    padding: 70px 20px 40px 20px;
+    width: 100%;
+    background-color: #eeeeee;
+    box-shadow: 0 0 20px #00000050;
+    border-radius: 5px;
+}
