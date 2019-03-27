@@ -17,3 +17,35 @@
     box-shadow: 0 0 20px #00000050;
     border-radius: 5px;
 }
+.socmed{
+    /* font-size: 30pt; */
+    /* margin: 20px; */
+}
+.socmed:hover{
+    animation: lompat 0.25s forwards 0s alternate infinite;
+    -webkit-animation: lompat 0.25s forwards 0s alternate infinite;
+}
+@keyframes lompat {
+    0%{
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@-webkit-keyframes lompat{
+    0%{
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@media screen and (max-width:768px){
+    .wrapper{
+        width: 90%;
+    }
+    .lmao{
+        top: -100px;
+    }
+}
